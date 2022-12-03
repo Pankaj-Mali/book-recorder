@@ -1,0 +1,43 @@
+.show-header-holder{
+    color: antiquewhite;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+
+.main-show-holder{
+    margin-top: 20px;
+    padding :30px;
+}
+.btn-to-home{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 45px;
+    color: rgb(219, 230, 226);
+    background-color: goldenrod;
+    
+}
+.table-holder{
+
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px solid ;
+    box-sizing: border-box;
+    color: azure;
+    font-size: large;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+#newtable {
+
+    border: 1px solid black;
+}
+

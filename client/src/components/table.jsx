@@ -29,8 +29,12 @@ const body = {
     },[token, member],[]);
 
     const handleclick=(e)=>{
-
+        localStorage.setItem('book', e.target.parentElement.children[0].innerText)
+        console.log(localStorage.getItem('book'));
+        nav('/show')
     }
+
+    
     const handleclick2=(e)=>{
         let info = e.target.parentElement.children[0].innerText
 
@@ -62,10 +66,9 @@ const body = {
                 data.map((data, key)=>{
                     return (
                         <tr key={key} className="row1">
-                            <td>{data.title}</td>
-                            <td>{data.author}</td>
-                            <td>{data.discription}</td>
-                            <td onClick={handleclick}>show details</td>
+                            <td onClick={handleclick}>{data.title}</td>
+                            <td onClick={handleclick}>{data.author}</td>
+                            <td onClick={handleclick}>{data.discription}</td>
                             <td onClick={handleclick2}>DELETE</td>
                             <td onClick={handleclick3}>EDIT</td>
 

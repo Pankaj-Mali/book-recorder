@@ -100,5 +100,18 @@ router.delete("/book/:title" , async(req,res)=>{
     }
 });
 
+router.get("/book/:title" , async(req,res)=>{
+
+    try{
+        const data= await book.findOne({title:req.params.title})
+        res.status(200).json({
+            data:data
+        });
+
+    }catch(e){
+        res.status(400).send(e.message)
+    }
+});
+
 module.exports=router
 
