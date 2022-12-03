@@ -1,0 +1,39 @@
+.main-addbook-holder{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;   
+}
+.addbook-header-holder{
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+}
+.addbook-header-holder >div> h1 {
+
+    text-align: center;
+    color: rgb(176, 233, 233);
+}
+.input1{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+}
+
+.show-list-btn{
+
+    float: left;
+    margin-left: 20px;
+    height: 45px;
+    font-size: larger;
+    font-weight: 900;
+    background-color: rgb(166, 126, 26);
+    color: rgb(225, 248, 240);
+    border: none;
+    border-radius: 10px;
+
+}
